@@ -131,6 +131,7 @@ body {
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  border-width: thin;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -145,15 +146,15 @@ body {
 .container_recently {
   margin-top: 20px;
 }
-.container-section li {
-  display: flex;
-}
+
 .list-section {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: center;
   margin-top: 100px;
+  flex-wrap: wrap;
+
 }
 .container-section a {
   text-decoration: none;
@@ -162,6 +163,9 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 15px;
+}
+.container-section li {
+  padding: 25px 0;
 }
 .container-section a:hover {
   color: white;
