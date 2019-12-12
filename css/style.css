@@ -148,6 +148,9 @@ body {
   font-weight: bold;
   font-size: 15px;
 }
+.container-section a:hover {
+  color: white;
+}
 .container_recently::after {
   content: '';
   display: table;
