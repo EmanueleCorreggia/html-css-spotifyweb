@@ -11,57 +11,7 @@ body {
 .wrapper {
   width: 100%;
   height: 100vh;
-  background-color: red;
 }
-
-/* Fixed */
-/* footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 90px;
-  background-color: pink;
-}
-
-.main-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 320px;
-  height: calc(100% - 90px);
-  background: blue;
-}
-.main-content {
-  width: calc(100% - 320px);
-  margin-left: 320px;
-  padding: 20px;
-} */
-
-/* Float */
-/* .main {
-  height: calc(100% - 90px);
-  overflow: hidden;
-}
-.main:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.main-nav {
-  float: left;
-  width: 320px;
-  height: 100%;
-  background: blue;
-}
-.main-content {
-  float: left;
-  width: calc(100% - 320px);
-  height: 100%;
-  background-color: orange;
-  overflow-y: scroll;
-} */
-
 
 /* Flex */
 .main {
@@ -75,18 +25,58 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 320px;
+  width: 250px;
   height: 100%;
   background: blue;
 }
 .main-nav-header {
-  background-color: purple;
+  background-color: black;
+}
+.logo img {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
   background-color: lime;
+}
+.container-top-list {
+  display: flex;
+  color: #B3B3B3;
+}
+.container-top-list ul {
+  list-style: none;
+}
+.container-top-list  img {
+  height: 30px;
+}
+
+.list-name li {
+  padding: 7px;
+  cursor: pointer;
+}
+.list-img ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.list-name ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main-nav li:hover {
+  color: white;
+}
+.border {
+  border-style: solid ;
+  border-color: lightgreen;
+  height: 35px;
+  border-width:thin;
+  margin-top: 20px;
 }
 .playlist {
 
@@ -97,7 +87,7 @@ body {
 
 /* main content */
 .main-content {
-  width: calc(100% - 320px);
+  width: calc(100% - 250px);
   height: 100%;
   background-color: #121212;
   overflow-y: scroll;
@@ -109,7 +99,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: calc(100% - 320px);
+  width: calc(100% - 250px);
   height: 90px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
