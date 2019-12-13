@@ -37,6 +37,11 @@ body {
   margin-left: 20px;
   margin-top: 20px;
 }
+.logo2 img {
+  height: 30px;
+  margin-left: 20px;
+
+}
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
@@ -127,6 +132,7 @@ body {
   color: #B3B3B3;
   margin-left: 25px;
   cursor: pointer;
+  display: flex;
 }
 .install a {
   color: #B3B3B3;
@@ -137,6 +143,9 @@ body {
   color: #B3B3B3;
   margin-bottom: 10px;
 }
+.app p:hover {
+  color: white;
+}
 .doe a {
   text-decoration: none;
   color: #B3B3B3;
@@ -146,11 +155,11 @@ body {
  cursor: pointer;
  color: white;
  font-weight: bold;
+ margin-left: 25px;
 }
 .fa-user-circle {
   font-size: 30px;
-  margin-left: 25px;
-  margin-right: 15px;
+  margin-left: 20px;
   margin-top: 10px;
 }
 .hr-install {
@@ -296,4 +305,34 @@ h1  {
 }
 .radius {
   border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+  .hidden {
+    visibility: hidden;
+  }
+  .main-nav {
+    width: 70px;
+  }
+  .main-nav-header {
+    position: relative;
+  }
+  .logo2 , .list-img {
+    position: absolute;
+    left: 50;
+    top: 0;
+    transform: translateY(50%);
+    transform: translateX(0);
+    margin-top: 5px;
+  }
+  .list-img {
+    margin-top: 30px;
+  }
+  .call-to-action {
+    width: calc(100% - 70px);
+  }
+}
+@media screen and ( min-width: 800px) {
+  .logo2 {
+    display: none;
+  }
 }
