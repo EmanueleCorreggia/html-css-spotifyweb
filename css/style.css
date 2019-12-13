@@ -88,7 +88,7 @@ body {
   color: #B3B3B3;
 }
 .main-nav-footer {
-  background-color: brown;
+  background-color: black;
 }
 .plus {
   margin-left: 25px;
@@ -121,6 +121,41 @@ body {
 .playlist li {
   padding: 10px 0;
   color: #B3B3B3;
+}
+.install {
+  margin-bottom: 10px;
+  color: #B3B3B3;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.install a {
+  color: #B3B3B3;
+  margin-right: 15px;
+}
+.doe {
+  display: flex;
+  color: #B3B3B3;
+  margin-bottom: 10px;
+}
+.doe a {
+  text-decoration: none;
+  color: #B3B3B3;
+}
+.jhon {
+ margin-top: 15px;
+ cursor: pointer;
+ color: white;
+ font-weight: bold;
+}
+.fa-user-circle {
+  font-size: 30px;
+  margin-left: 25px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.hr-install {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 /* main content */
 .main-content {
