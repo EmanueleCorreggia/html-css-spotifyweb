@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
   width: 250px;
   height: 100%;
-  background: blue;
+  background: black;
 }
 .main-nav-header {
   background-color: black;
@@ -41,7 +41,7 @@ body {
   min-height: 150px;
   overflow-y: auto;
   flex-grow: 2;
-  background-color: lime;
+  background-color: black;
 }
 .container-top-list {
   display: flex;
@@ -53,7 +53,6 @@ body {
 .container-top-list  img {
   height: 30px;
 }
-
 .list-name li {
   padding: 7px;
   cursor: pointer;
@@ -78,13 +77,51 @@ body {
   border-width:thin;
   margin-top: 20px;
 }
-.playlist {
-
+.title-playlist {
+  color: white;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.container-playlist {
+  display: flex;
+  color: #B3B3B3;
 }
 .main-nav-footer {
   background-color: brown;
 }
-
+.plus {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.crea {
+  margin-top: 7px;
+}
+.plus a {
+  text-decoration: none;
+  color: #B3B3B3;
+}
+.crea a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #B3B3B3;
+}
+.fa-plus-square {
+  font-size: 40px;
+}
+.container-playlist a:hover {
+  color: white;
+}
+.playlist {
+  margin-left: 25px;
+  list-style: none;
+  margin-top: 10px;
+}
+.playlist li {
+  padding: 10px 0;
+  color: #B3B3B3;
+}
 /* main content */
 .main-content {
   width: calc(100% - 250px);
