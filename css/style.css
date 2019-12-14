@@ -478,6 +478,12 @@ h1  {
   .call-to-action {
     width: calc(100% - 70px);
   }
+  .main-content {
+    width: calc(100% -70px);
+  }
+  .call-to-action {
+    width: calc(100% -70px)
+  }
 }
 @media screen and ( min-width: 800px) {
   .logo2 {
