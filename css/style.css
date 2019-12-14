@@ -358,6 +358,7 @@ h1  {
   font-size: 15px;
   height: 45px;
   flex-direction: column;
+  width: 40%;
 }
 .container-icon {
   display: flex;
@@ -367,12 +368,15 @@ h1  {
 .container-timer {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.icon-right {
+  display: flex;
 }
 .container-footer-right {
   display: flex;
   align-content: flex-end;
   align-items: center;
-  
 }
 .container-footer-right a {
   padding: 0 10px;
@@ -391,13 +395,16 @@ h1  {
 }
 .bar {
   position: relative;
-  width: 100%;
+  width: 40%;
   height: 3px;
   background-color: white;
   margin-left: 10px;
 }
 .bar:hover {
-  background-color: lightgreen;
+  background-color: lime;
+}
+.fa-step-forward , .fa-redo{
+  display: inline;
 }
 .bar i {
   position: absolute;
@@ -409,19 +416,20 @@ h1  {
   display: block;
 }
 .bar2 {
-  width: 100%;
+  width: 60%;
   height: 3px;
   background-color: #B3B3B3;
   margin-right: 10px;
 }
 .bar-right1 {
+  display: flex;
   position: relative;
-  width: 40px;
+  width: 30px;
   height: 3px;
   background-color: white
 }
 .bar-right1:hover {
-  background-color: lightgreen;
+  background-color: lime;
 }
 .bar-right1 i {
   color: white;
@@ -434,8 +442,10 @@ h1  {
   display: block;
 }
 .bar-right2 {
-  width: 100px;
+  display: flex;
+  width: 40px;
   height: 3px;
+  margin-right: 10px;
   background-color: #B3B3B3;
 }
 .container-timer p {
