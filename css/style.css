@@ -211,7 +211,136 @@ body {
 .footer {
   width: 100%;
   height: 90px;
-  background-color: pink;
+  background-color: #494949;
+  display: flex;
+  justify-content: space-between;
+
+}
+.container-music {
+  display: flex;
+  /* height: 90px; */
+}
+.footer-img img {
+  height: 50px;
+  margin: 20px;
+}
+.footer-title {
+  margin-top: 30px;
+}
+.footer-title h3 {
+  font-size: 15px;
+  color: white;
+}
+.footer-title p {
+  font-size: 12px;
+  color: #B3B3B3;
+}
+.footer-title a {
+  text-decoration: none;
+}
+.footer-title a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.heart {
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.heart a {
+  color: #B3B3B3;
+}
+.heart a:hover {
+  color: white;
+}
+.heart i {
+  padding: 5px;
+}
+.central-top-footer {
+  display: flex;
+  font-size: 15px;
+  height: 45px;
+  flex-direction: column;
+}
+.container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-timer {
+  display: flex;
+  align-items: center;
+}
+.container-footer-right {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+}
+.container-footer-right a {
+  padding: 0 10px;
+  color: white;
+}
+.central-top-footer i {
+  color: #B3B3B3;
+  padding: 10px;
+  color: white;
+}
+.play-footer {
+  font-size: 30px;
+}
+.play-footer:hover {
+  transform: scale(1.5);
+}
+.bar {
+  position: relative;
+  width:130px;
+  height: 3px;
+  background-color: white;
+  margin-left: 10px;
+}
+.bar:hover {
+  background-color: lightgreen;
+}
+.bar i {
+  position: absolute;
+  top:-16px;
+  right: -10px;
+  display: none;
+}
+.bar:hover i {
+  display: block;
+}
+.bar2 {
+  width: 200px;
+  height: 3px;
+  background-color: #B3B3B3;
+  margin-right: 10px;
+}
+.bar-right1 {
+  position: relative;
+  width: 40px;
+  height: 3px;
+  background-color: white
+}
+.bar-right1:hover {
+  background-color: lightgreen;
+}
+.bar-right1 i {
+  color: white;
+  position: absolute;
+  top: -7px;
+  right: 0;
+  display: none;
+}
+.bar-right1:hover i {
+  display: block;
+}
+.bar-right2 {
+  width: 100px;
+  height: 3px;
+  background-color: #B3B3B3;
+}
+.container-timer p {
+  color: white;
 }
 /* section */
 .container_recently {
